@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 10px 10px 5px rgba(85, 62, 62, 0.74);
+    background-color: darkmagenta;
+    padding: 15px;
+    width: 500px;
+}
+
+.card-img{
+    width: 100%;
+
+}
+.card-desc{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-attribute{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
